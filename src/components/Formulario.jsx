@@ -72,15 +72,29 @@ const Formulario = () => {
     }
 
 
+    
     const enviarFormulario = e => {
         e.preventDefault()
+
 
         // nombre.trim() === nombre
         // es que si el nuevo string sin espacio inicial, generado por trimStart() 
         // tiene que ser igual que el nombre que se ingreso en el input del formulario
         // si no, quiere decir que se tuvo que modificar con trimStart() porque tenia espacios
         const nombreValido = nombre.trimStart()
-        if( (nombreValido.length > 3) && (nombre.trimStart() === nombre) && (color.length > 6) )
+
+
+        // ORDEN DE LOS PARENTESIS: desde adentro, hacia afuera...
+
+        // 1---> (nombre.trimStart() === nombre)
+        //       que el string del nombre, NO tenga espacios
+
+        // 2---> && nombreValido.length > 3)
+        //       que el string del nombre, tenga MAS de 3 caracteres
+
+        // 3---> && color.length > 6)
+        //       que el string del color, tenga MAS de 6 caracteres
+        if( (((nombre.trimStart() === nombre) && nombreValido.length > 3) && color.length > 6) )
         {
             setActivarTarjeta( true )
             setError1( '' ) 
