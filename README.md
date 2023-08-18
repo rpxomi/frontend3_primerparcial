@@ -1,12 +1,10 @@
-NO usar esta branch para evaluar el primer parcial <br>
-usar la branch <b>main</b>
-
-Micozzi, Juan
+<h3>-NO- USAR ESTA BRANCH PARA EVALUAR EL PARCIAL <br>
+USAR LA BRANCH: main</h3>
 
 - - -
 
-como ejercicio personal <br>
-estas son correciones que hice y cosas que agregue, despues de haber entregado la prueba
+esta branch, es a modo de: <i>"ejercicio personal"</i> <br>
+de correciones que hice y cosas que agregue, despues de haber entregado el parcial
 
 - - -
 
