@@ -2,10 +2,7 @@ Micozzi, Juan
 
 - - -
 
-creo otra rama, porque la anterior esta mal escrito el nombre
-
-dice: "correcion" <br>
-en vez de: "correccion"
+estas son correciones que hice y cosas que agregue, como ejercicio personal
 
 - - -
 
