@@ -1,8 +1,12 @@
+NO usar esta branch para evaluar el primer parcial <br>
+usar la branch <b>main</b>
+
 Micozzi, Juan
 
 - - -
 
-estas son correciones que hice y cosas que agregue, como ejercicio personal
+como ejercicio personal <br>
+estas son correciones que hice y cosas que agregue, despues de haber entregado la prueba
 
 - - -
 
